@@ -1,5 +1,5 @@
 {
-  "name": "git-clone-promise",
+  "name": "git-clone-promises",
   "version": "0.1.0",
   "description": "Promise wrapper for git-clone to clone repository via shell command",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheRolfFR/git-clone-promise.git"
+    "url": "git+https://github.com/TheRolfFR/git-clone-promises.git"
   },
   "keywords": [
     "git",
@@ -16,13 +16,17 @@
     "shell",
     "promise"
   ],
-  "author": "TheRolf",
+  "author": "therolf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheRolfFR/git-clone-promise/issues"
+    "url": "https://github.com/TheRolfFR/git-clone-promises/issues"
   },
-  "homepage": "https://github.com/TheRolfFR/git-clone-promise#readme",
+  "homepage": "https://github.com/TheRolfFR/git-clone-promises#readme",
   "dependencies": {
     "git-clone": "^0.1.0"
-  }
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {}
 }

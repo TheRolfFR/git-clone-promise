@@ -1,4 +1,4 @@
-# git-clone-promise
+# git-clone-promises
 
 Promise version of [jaz303](https://github.com/jaz303)'s [git-clone](https://www.npmjs.com/package/git-clone) npm module. Clones a git repository via shell command and with promises!
 
@@ -6,11 +6,11 @@ Promise version of [jaz303](https://github.com/jaz303)'s [git-clone](https://www
 
 Install:
 
-	$ npm install git-clone-promise
+	$ npm install git-clone-promises
 
 Require:
 
-	const { clone, cloneCallback } = require('git-clone-promise');
+	const { clone, cloneCallback } = require('git-clone-promises');
 
 ## API
 
@@ -31,8 +31,8 @@ Fullfills if done with no return value
 Rejects if folder already exists and not empty and no `remove` option or else failed to remove folder:
 
 ```js
-const { clone } = require('git-clone-promise');
-clone('https://github.com/TheRolfFR/git-clone-promise.git', './test-clone', {
+const { clone } = require('git-clone-promises');
+clone('https://github.com/TheRolfFR/git-clone-promises.git', './test-clone', {
   remove: true
 }).then(() => {
   console.log('complete!')
@@ -46,8 +46,8 @@ clone('https://github.com/TheRolfFR/git-clone-promise.git', './test-clone', {
 I left callback version with my remove option addition:
 
 ```js
-const { cloneCallback } = require('git-clone-promise');
-cloneCallback('https://github.com/TheRolfFR/git-clone-promise.git', './test-clone', {
+const { cloneCallback } = require('git-clone-promises');
+cloneCallback('https://github.com/TheRolfFR/git-clone-promises.git', './test-clone', {
   remove: true
 }, function (err) {
   if(err)
