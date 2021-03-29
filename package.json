@@ -1,0 +1,28 @@
+{
+  "name": "git-clone-promise",
+  "version": "0.1.0",
+  "description": "Promise wrapper for git-clone to clone repository via shell command",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRolfFR/git-clone-promise.git"
+  },
+  "keywords": [
+    "git",
+    "clone",
+    "shell",
+    "promise"
+  ],
+  "author": "TheRolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRolfFR/git-clone-promise/issues"
+  },
+  "homepage": "https://github.com/TheRolfFR/git-clone-promise#readme",
+  "dependencies": {
+    "git-clone": "^0.1.0"
+  }
+}
